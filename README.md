@@ -30,9 +30,9 @@ This project uses IBM’s HR Analytics dataset to:
 
 ## 📸 Screenshots
 
-| Input Form | Prediction Result | SHAP Explanation |
+| Form Input | Prediction Output | SHAP Explanation |
 |------------|-------------------|------------------|
-| ![Form](assets/screenshots/form_input.png) | ![Result](assets/screenshots/prediction_output.png) | ![SHAP](assets/screenshots/shap_plot.png) |
+| ![Form Input](assets/form-input.png) | ![Prediction](assets/prediction-result.png) | ![SHAP](assets/shab-plot.png) |
 
 ---
 
