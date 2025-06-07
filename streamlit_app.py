@@ -7,9 +7,9 @@ import shap
 import numpy as np
 
 # Load model, scaler, and feature names
-model = joblib.load("models/xgb_attrition_model.pkl")
-scaler = joblib.load("models/scaler.pkl")
-feature_names = joblib.load("models/feature_names.pkl")
+model = joblib.load("xgb_attrition_model.pkl")
+scaler = joblib.load("scaler.pkl")
+feature_names = joblib.load("feature_names.pkl")
 
 st.set_page_config(page_title="Attrition Predictor")
 st.title("Employee Attrition Predictor")
