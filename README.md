@@ -6,7 +6,7 @@ An interactive, explainable machine learning app to predict whether an employee 
 
 ## 🚀 Live Demo
 
-> (Add link once deployed on Streamlit Cloud)
+[Click here to try the app](https://hr-attrition-predictor-acme6nm34kgx8yvxz3yvvq.streamlit.app/)
 
 ---
 
