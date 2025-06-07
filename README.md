@@ -28,9 +28,19 @@ This project uses IBM’s HR Analytics dataset to:
 
 ---
 
+## 📸 Screenshots
+
+| Input Form | Prediction Result | SHAP Explanation |
+|------------|-------------------|------------------|
+| ![Form](assets/screenshots/form_input.png) | ![Result](assets/screenshots/prediction_output.png) | ![SHAP](assets/screenshots/shap_plot.png) |
+
+---
+
 ## 🖥️ How to Run Locally
 
 ### 1. Clone this repo:
 ```bash
 git clone https://github.com/shauryadata/hr_attrition_predictor.git
 cd hr_attrition_predictor
+
+
