@@ -1,30 +1,54 @@
-# 💼 HR Attrition Predictor
+# 💼 HR Attrition Predictor - Interactive ML App with Explainability
 
-An interactive, explainable machine learning app to predict whether an employee is at risk of attrition. Built using Streamlit, XGBoost, and SHAP for real-time predictions with interpretability.
-
----
-
-## 🚀 Live Demo
-
-[Click here to try the app](https://hr-attrition-predictor-acme6nm34kgx8yvxz3yvvq.streamlit.app/)
+This project presents an explainable machine learning solution to help HR teams identify employees at risk of leaving the company. Built using XGBoost, Streamlit, and SHAP, it combines predictive accuracy with interpretability.
 
 ---
 
-## 📊 Project Overview
+## 🚀 Live App  
+🔗 [Launch the HR Attrition Predictor](https://hr-attrition-predictor-acme6nm34kgx8yvxz3yvvq.streamlit.app/)
 
-This project uses IBM’s HR Analytics dataset to:
-- Predict employee attrition using machine learning
-- Visualize key features driving each prediction with SHAP
-- Provide an interactive UI for HR teams via Streamlit
+---
+
+## 🎯 Objective
+
+- Predict whether an employee is likely to leave (Attrition: Yes/No)
+- Provide visual explanations for each prediction
+- Empower HR to take proactive retention measures
+
+---
+
+## 📊 Key Features
+
+- Input employee details through a user-friendly form
+- Get real-time prediction results (Yes / No)
+- View SHAP plots explaining **why** the prediction was made
 
 ---
 
 ## 🧠 Model Details
 
-- **Algorithm:** XGBoost Classifier
-- **Handling Imbalance:** SMOTE (Synthetic Minority Oversampling)
-- **Explainability:** SHAP (SHapley Additive exPlanations)
-- **Key Features:** OverTime, JobSatisfaction, DistanceFromHome, StockOptionLevel
+- **Algorithm**: XGBoost Classifier  
+- **Preprocessing**: One-hot encoding, feature scaling  
+- **Handling Class Imbalance**: SMOTE  
+- **Explainability**: SHAP (SHapley Additive Explanations)  
+- **Key Drivers**: OverTime, JobSatisfaction, DistanceFromHome, StockOptionLevel
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python, Pandas, Scikit-learn, Imbalanced-learn  
+- XGBoost, SHAP  
+- Streamlit for frontend deployment
+
+---
+
+## 📁 Files
+
+- `HR_Analytics_Model.ipynb` – Model training pipeline  
+- `app.py` – Streamlit app  
+- `models/` – Saved model, scaler, and features  
+- `requirements.txt` – Dependency list
 
 ---
 
@@ -36,11 +60,7 @@ This project uses IBM’s HR Analytics dataset to:
 
 ---
 
-## 🖥️ How to Run Locally
-
-### 1. Clone this repo:
-```bash
-git clone https://github.com/shauryadata/hr_attrition_predictor.git
-cd hr_attrition_predictor
-
+## ✅ Author  
+**Shauryaditya Singh**  
+Aspiring Data Scientist | Explainable AI Enthusiast
 
